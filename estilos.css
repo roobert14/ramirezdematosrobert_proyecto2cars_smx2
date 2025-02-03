@@ -1,9 +1,38 @@
 div{
-    margin-left: auto,border;
-    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
 }
 header {
     color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #000;
+}
+body {
+    max-width: 1600px; 
+    margin: 0 auto; 
+    padding: 0 20px;
+    font-family: 'SF Pro Display', sans-serif;
+  }
+  h3{
     padding-top: 50px;
-    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+.primertitulo{
+    font-size: 96px;
+    text-transform: uppercase;
+    padding-top: 0px;
+    margin-top: 0;
+}
+.conainer2{
+    display: flex;
+}
+
+button{
+    border-radius: 10px;
+    text-transform: uppercase;
 }
