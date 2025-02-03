@@ -1,0 +1,9 @@
+div{
+    margin-left: auto,border;
+    border-radius: 10px;
+}
+header {
+    color: black;
+    padding-top: 50px;
+    text-align: center;
+}
