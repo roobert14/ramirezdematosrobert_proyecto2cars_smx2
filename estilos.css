@@ -20,14 +20,6 @@ header {
 .content {
     width: 70%;
 }
-.titulo {
-    font-size: 96px;
-    font-weight: 500;
-    width: fit-content;
-    position: relative;
-    left: -5px;
-}
-
 .subtitulo {
     padding-top: 50px;
     font-size: 13px;
