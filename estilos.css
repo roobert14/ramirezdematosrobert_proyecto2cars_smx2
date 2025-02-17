@@ -16,11 +16,7 @@ header {
     padding-bottom: 40px;
     border-bottom: 2px solid #000;
 }
-.container{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
+
 .content {
     width: 70%;
 }
@@ -47,6 +43,7 @@ header {
     width: 70%;
 }
 .titulo {
+    margin: 0px;
     font-size: 96px;
     font-weight: 500;
     width: fit-content;
@@ -94,9 +91,7 @@ header {
     height: 2px;
     border-radius: 2px;
 }
-.titulo {
-    margin: 0;
-}
+
 
 .header__párrafo {
     font-size: .85em;
