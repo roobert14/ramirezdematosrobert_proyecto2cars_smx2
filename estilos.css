@@ -16,7 +16,54 @@ header {
     padding-bottom: 40px;
     border-bottom: 2px solid #000;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.content {
+    width: 70%;
+}
+.titulo {
+    font-size: 96px;
+    font-weight: 500;
+    width: fit-content;
+    position: relative;
+    left: -5px;
+}
 
+.subtitulo {
+    padding-top: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+div{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', sans-serif;
+    max-width: 1512px; 
+    margin: auto;
+}
+header {
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #000;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.content {
+    width: 70%;
+}
 .titulo {
     font-size: 96px;
     font-weight: 500;
@@ -32,8 +79,71 @@ header {
     margin: 0 0 5px 0;
 }
 
-.content{
+.header__div {
+    width: 70%;
+}
+
+.segundo--div {
+    margin-top: 40px;
+    width: 350px;
+    text-align: justify;
+}
+
+.segundo--div__apartado {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.seción-barra-progreso {
+    width: 40%;
+    margin-top: 10px;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.barra-progreso {
     width: 100%;
+    height: 2px;
+    background-color: #ddd;
+    position: relative;
+    margin-top:10px;
+    border-radius: 2px;
+    
+}
+.raya-progreso {
+    width: 16.67%;
+    background-color: #333;
+    position: absolute;
+    height: 2px;
+    border-radius: 2px;
+}
+.titulo {
+    margin: 0;
+}
+
+.header__párrafo {
+    font-size: .85em;
+}
+
+.boton {
+    border-radius: 50px;
+    padding: 8px 25px;
+    height: fit-content;
+    background-color: #fff;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-family: 'SF Pro Display';
+    font-size: 1em;
+}
+
+.imagen__header {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.separacion_header {
+    margin: 10px 0;
+    margin-top: 45px;
 }
