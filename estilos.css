@@ -39,9 +39,7 @@ header {
     justify-content: space-between;
     width: 100%;
 }
-.content {
-    width: 70%;
-}
+
 .titulo {
     margin: 0px;
     font-size: 96px;
