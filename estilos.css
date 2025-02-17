@@ -54,13 +54,6 @@ header {
     left: -5px;
 }
 
-.subtitulo {
-    padding-top: 50px;
-    font-size: 14px;
-    font-weight: bold;
-    margin: 0 0 5px 0;
-}
-
 .header__div {
     width: 70%;
 }
