@@ -10,39 +10,35 @@ body {
     max-width: 1512px; 
     margin: auto;
 }
-header {
+.menu_de_navegación {
     color: black;
     padding-top: 40px;
     padding-bottom: 40px;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid black;
 }
 
-.content {
-    width: 70%;
-}
-.subtitulo {
-    padding-top: 50px;
-    font-size: 13px;
-    font-weight: bold;
-    margin: 0 0 5px 0;
-}
 .container{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-
-.titulo {
-    margin: 0px;
-    font-size: 96px;
-    font-weight: 500;
-    width: fit-content;
-    position: relative;
-    left: -5px;
+.contenido_primera_pagina {
+    width: 70%;
 }
 
-.header__div {
-    width: 70%;
+.subtitulo {
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.titulo {
+    font-size: 96px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.primera_pagina {
+    width: 60%;
 }
 
 .segundo--div {
@@ -51,21 +47,25 @@ header {
     text-align: justify;
 }
 
-.segundo--div__apartado {
+.párrafo_primera_pagina {
+    font-size: .85em;
+}
+
+.segundo--div__parrafo {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     margin-top: 30px;
 }
 
-.seción-barra-progreso {
+.seción-linea-progreso_primera_pagina {
     width: 40%;
     margin-top: 10px;
     font-size: .9em;
     font-weight: bold;
 }
 
-.barra-progreso {
+.linea-progreso {
     width: 100%;
     height: 2px;
     background-color: #ddd;
@@ -74,36 +74,127 @@ header {
     border-radius: 2px;
     
 }
-.raya-progreso {
-    width: 15%;
-    background-color: #000;
+
+.porcentaje-progreso {
+    width: 16.67%;
+    background-color: #333;
     position: absolute;
     height: 2px;
     border-radius: 2px;
 }
-
-
-.header__párrafo {
-    font-size: .85em;
-    color: #000000;
-}
-
-.boton {
-    border-radius: 50px;
-    padding: 10px 25px;
-    height: fit-content;
-    background-color: #fff;
-    border: 1px solid #000;
-    text-transform: uppercase;
-    font-size: 1em;
-}
-
-.imagen__header {
+.imagen__primera_pagina {
     max-width: 100%;
     margin: 20px 0;
 }
 
-.separacion_header {
+.separacion_primera_pagina {
     margin: 10px 0;
     margin-top: 45px;
+}
+.boton {
+    border-radius: 50px;
+    padding: 8px 25px;
+    height: fit-content;
+    background-color: #fff;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-family: 'SF Pro Display';
+    font-size: 1em;
+}
+
+/* ----------- MAIN PRIMERA PARTE ------------- */
+
+.main__primera-pagina {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__subtitulo {
+    font-size: 4em;
+    width: 30%;
+    font-weight: 100;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.main__primera-pagina_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.segundo--boton {
+    margin-top: 20px;
+}
+
+.main__flechas {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    gap: 20px;
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.galeria_tamaño {
+    width: 300px;
+}
+
+.imagenes {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.imagenes--imagen2 {
+    object-position: 80%;
+}
+
+.marca_coche {
+    color: #ccc;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.descripcion {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.separacion__paginas {
+    margin: 50px 0;
+}
+
+/* ----------- MAIN SEGUNDA PARTE ------------- */
+
+.segunda_pagina {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.parrafo_segunda_pagina {
+    width: 210px;
+    text-align: justify;
+}
+
+.raya_pequeña_segunda_pagina {
+    margin: 20px 0 40px 0;
+    transform: scaleY(2);
+}
+
+.imagen_segunda_pagina {
+    width: 800px;
+}
+
+.boton_segunda_pagina {
+    margin: 30px;
+    margin-bottom: 30px;
 }
